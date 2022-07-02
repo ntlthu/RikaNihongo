@@ -4,7 +4,15 @@ body {
 header {
   margin-bottom: 15px;
 }
-.space-button-a button,
-.space-button-a a {
+.space-button-a button {
   margin: 5px 3px;
+}
+.space-button-a a {
+  color: black;
+  font-weight: 500;
+  margin: 7px 5px;
+}
+.space-button-a h3,
+.space-button-a h3 a {
+  color: brown;
 }
