@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viet Nam</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Vietnam.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/index.html">Matome</a>
+      </nav>
+    </header>
+    <div class="d-flex align-items-start">
+      <div
+        class="nav flex-column nav-pills me-3"
+        id="v-pills-tab"
+        role="tablist"
+        aria-orientation="vertical"
+      >
+        <button
+          class="nav-link active"
+          id="v-pills-home-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#taberu"
+          type="button"
+          role="tab"
+        >
+          食べる　
+        </button>
+        <!-- <button
+          class="nav-link"
+          id="v-pills-profile-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#v-pills-profile"
+          type="button"
+          role="tab"
+          aria-controls="v-pills-profile"
+          aria-selected="false"
+        >
+          Profile
+        </button> -->
+        <!-- <button
+          class="nav-link"
+          id="v-pills-disabled-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#v-pills-disabled"
+          type="button"
+          role="tab"
+          aria-controls="v-pills-disabled"
+          aria-selected="false"
+          disabled
+        >
+          Disabled
+        </button> -->
+        <!-- <button
+          class="nav-link"
+          id="v-pills-messages-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#v-pills-messages"
+          type="button"
+          role="tab"
+          aria-controls="v-pills-messages"
+          aria-selected="false"
+        >
+          Messages
+        </button> -->
+        <!-- <button
+          class="nav-link"
+          id="v-pills-settings-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#v-pills-settings"
+          type="button"
+          role="tab"
+          aria-controls="v-pills-settings"
+          aria-selected="false"
+        >
+          Settings
+        </button> -->
+      </div>
+      <div class="tab-content" id="v-pills-tabContent">
+        <div
+          class="tab-pane fade show active"
+          id="taberu"
+          role="tabpanel"
+          aria-labelledby="v-pills-home-tab"
+          tabindex="0"
+        >
+          <!-- TABERU CONTENT -->
+          <nav>
+            <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+              <button
+                class="nav-link active"
+                id="nav-home-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#betonamukotoba"
+                type="button"
+                role="tab"
+                aria-controls="nav-home"
+                aria-selected="true"
+              >
+                言葉
+              </button>
+              <button
+                class="nav-link"
+                id="nav-profile-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#taberuSentences"
+                type="button"
+                role="tab"
+                aria-controls="nav-profile"
+                aria-selected="false"
+              >
+                サンプル文
+              </button>
+              <button
+                class="nav-link"
+                id="nav-contact-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#tabemonoDanraku01"
+                type="button"
+                role="tab"
+                aria-controls="nav-contact"
+                aria-selected="false"
+              >
+                段落 1
+              </button>
+              <button
+                class="nav-link"
+                id="nav-disabled-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#tanemonoDanraku02"
+              >
+                段落２
+              </button>
+            </div>
+          </nav>
+          <div class="tab-content px-2" id="nav-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="betonamukotoba"
+              role="tabpanel"
+              aria-labelledby="nav-home-tab"
+              tabindex="0"
+            >
+              <button
+                type="button"
+                class="btn btn-success"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                data-bs-custom-class="custom-tooltip"
+                title="ぜんさい: 前菜 / an hors d'oeuvre "
+              >
+                Món khai vị
+                <i
+                  class="fa fa-volume-up control-audio"
+                  src="https://storage.dekiru.vn//Data/AutoAudio/7c1ef73d8d409fc72e95c08029e1bcd3_90.mp3"
+                ></i>
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                data-bs-custom-class="custom-tooltip"
+                title="鍋 = なべ: Nồi/ chảo/ món lẩu"
+              >
+                Món lẩu
+                <i
+                  class="fa fa-volume-up control-audio"
+                  src="http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kana=%E3%81%AA%E3%81%B9&kanji=%E9%8D%8B"
+                ></i>
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                data-bs-custom-class="custom-tooltip"
+                title="デザート"
+              >
+                Món tráng miệng
+                <i
+                  class="fa fa-volume-up control-audio"
+                  src="http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kana=%E3%83%87%E3%82%B6%E3%83%BC%E3%83%88&kanji=%E3%83%87%E3%82%B6%E3%83%BC%E3%83%88"
+                ></i>
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                data-bs-custom-class="custom-tooltip"
+                title="サラダ"
+              >
+                Món gỏi
+                <i
+                  class="fa fa-volume-up control-audio"
+                  src="http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kana=%E3%82%B5%E3%83%A9%E3%83%80&kanji=%E3%82%B5%E3%83%A9%E3%83%80"
+                ></i>
+              </button>
+              <button
+                type="button"
+                class="btn btn-success"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                data-bs-custom-class="custom-tooltip"
+                title="飲み物: のみもの"
+              >
+                Đồ uống
+                <i
+                  class="fa fa-volume-up control-audio"
+                  src="http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kana=%E3%81%AE%E3%81%BF%E3%82%82%E3%81%AE&kanji=%E9%A3%B2%E3%81%BF%E7%89%A9"
+                ></i>
+              </button>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="taberuSentences"
+              role="tabpanel"
+              aria-labelledby="nav-profile-tab"
+              tabindex="0"
+            >
+              サンプル文
+            </div>
+            <div
+              class="tab-pane fade"
+              id="tabemonoDanraku01"
+              role="tabpanel"
+              aria-labelledby="nav-contact-tab"
+              tabindex="0"
+            >
+              段落 01
+            </div>
+            <div class="tab-pane fade" id="tanemonoDanraku02" role="tabpanel">
+              段落２
+            </div>
+          </div>
+
+          <!-- // END TABERU CONTENT -->
+        </div>
+        <!-- <div
+          class="tab-pane fade"
+          id="v-pills-profile"
+          role="tabpanel"
+          aria-labelledby="v-pills-profile-tab"
+          tabindex="0"
+        >
+          ...
+        </div> -->
+        <!-- <div
+          class="tab-pane fade"
+          id="v-pills-disabled"
+          role="tabpanel"
+          aria-labelledby="v-pills-disabled-tab"
+          tabindex="0"
+        >
+          ...
+        </div> -->
+        <!-- <div
+          class="tab-pane fade"
+          id="v-pills-messages"
+          role="tabpanel"
+          aria-labelledby="v-pills-messages-tab"
+          tabindex="0"
+        >
+          ...
+        </div> -->
+        <!-- <div
+          class="tab-pane fade"
+          id="v-pills-settings"
+          role="tabpanel"
+          aria-labelledby="v-pills-settings-tab"
+          tabindex="0"
+        >
+          ...
+        </div> -->
+      </div>
+    </div>
+    <!-- BS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- TOOLTIPS BS -->
+    <script>
+      const tooltipTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="tooltip"]'
+      );
+      const tooltipList = [...tooltipTriggerList].map(
+        (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+      );
+    </script>
+    <!-- Popovers -->
+    <!-- <script>
+         const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+         const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+     </script> -->
+    <script>
+      $(".control-audio").click(function () {
+        let src = $(this).attr("src");
+        const audio = new Audio(src);
+        audio.play();
+      });
+    </script>
+  </body>
+</html>
