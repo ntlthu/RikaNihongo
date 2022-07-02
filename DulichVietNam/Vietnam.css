@@ -4,3 +4,7 @@ body {
 header {
   margin-bottom: 15px;
 }
+.space-button-a button,
+.space-button-a a {
+  margin: 3vh 3px;
+}
