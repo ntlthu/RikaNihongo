@@ -12,7 +12,11 @@ header {
   font-weight: 500;
   margin: 7px 5px;
 }
-.space-button-a h4,
-.space-button-a h4 a {
+.space-button-a h5,
+.space-button-a h5 a {
   color: brown;
+}
+.space-button-a h5,
+.space-button-a p {
+  display: inline-block;
 }
