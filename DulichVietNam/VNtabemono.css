@@ -4,6 +4,9 @@ body {
 header {
   margin-bottom: 15px;
 }
+header nav a {
+  margin-right: 15px;
+}
 .space-button-a button {
   margin: 5px 3px;
 }
