@@ -1,0 +1,18 @@
+header nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.kotoba-group {
+    margin: 5px 10px;
+    background-color: rgb(109, 243, 201);
+    display: inline-block;
+    padding: auto;
+    box-shadow: 0 0 10px rgb(207, 204, 204);
+    border-radius: 6px;
+}
+.kotoba-group i {
+    font-size: 20px;
+    margin: 5px;
+}

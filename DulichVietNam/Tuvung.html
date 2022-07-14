@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>Từ vựng tổng hợp</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta
@@ -22,9 +22,36 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./tuvung.css" />
   </head>
   <body>
-    <div></div>
+    <header class="container">
+      <nav>
+        <a href="/index.html">Matome</a>
+        <a href="/DulichVietNam/VNtabemono.html">食べる　</a>
+      </nav>
+    </header>
+    <div class="kotoba-group">
+      <i class="fa fa-angle-right" id="nihongo" onclick="suriJP()"></i>
+      <span id="suri">スリ</span>
+      <i class="fa fa-angle-left" id="vietnamese" onclick="suriVN()"></i>
+    </div>
+    <div class="kotoba-group">
+      <i class="fa fa-angle-right" id="nihongo" onclick="group2JP()"></i>
+      <span id="kotoba2">電話を取られる</span>
+      <i class="fa fa-angle-left" id="vietnamese" onclick="group2VN()"></i>
+    </div>
+    <div class="kotoba-group">
+      <i class="fa fa-angle-right" id="nihongo" onclick="kotoba3JP()"></i>
+      <span id="kotoba3"
+        >盗む
+        <i
+          class="fa fa-volume-up control-audio"
+          src="http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kana=%E3%81%AC%E3%81%99%E3%82%80&kanji=%E7%9B%97%E3%82%80"
+        ></i>
+      </span>
+      <i class="fa fa-angle-left" id="vietnamese" onclick="kotoba3VN()"></i>
+    </div>
     <!-- Bootstrap JavaScript Libraries -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
@@ -38,5 +65,12 @@
       crossorigin="anonymous"
     ></script>
     <script src="./tuvung.js"></script>
+    <script>
+      $(".control-audio").click(function () {
+        let src = $(this).attr("src");
+        const audio = new Audio(src);
+        audio.play();
+      });
+    </script>
   </body>
 </html>
