@@ -1,6 +1,6 @@
 var vietnamese = document.getElementById("vietnamese");
 var nihongo = document.getElementById("nihongo");
-
+let isCollapsed = true;
 function suriJP() {
   var textSuri = (document.getElementById("suri").innerHTML = "スリ");
 }
