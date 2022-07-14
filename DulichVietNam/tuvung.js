@@ -6,8 +6,10 @@ function suriJP() {
 }
 
 function suriVN() {
-  var textSuri = (document.getElementById("suri").innerHTML =
-    "Móc túi( pickpocketing)");
+  var mocTui = "";
+  mocTui += "<p> Móc túi( pickpocketing) </p>";
+  mocTui += "<p>スリに注意 : Coi chừng móc túi!</p>";
+  var textSuri = (document.getElementById("suri").innerHTML = mocTui);
 }
 
 function group2JP() {
@@ -29,4 +31,14 @@ function kotoba3VN() {
   tromCap += "<p>何を盗まれましたか。: Bạn đã bị trộm mất cái gì?</p>";
   tromCap += "<p>現金を盗まれた。:Tôi bị trộm mất tiền mặt.</p>";
   var kotoba3 = (document.getElementById("kotoba3").innerHTML = tromCap);
+}
+
+function kotoba4JP() {
+  var kotoba4 = (document.getElementById("kotoba4").innerHTML = "ほげほげ");
+}
+function kotoba4VN() {
+  var hogehoge = "";
+  hogehoge +=
+    "<p>＝何か = gì đó gì đó。<br> プログラム内では hogehoge。<br> 英語圏ではfoo bar。<br> 英語のサンプルプログラム内の変数によく使われています <br> 適当な変数ですね <br> hogeとかは日本のサンプルプログラムの適当な変数名として現れます</p>";
+  var kotoba4 = (document.getElementById("kotoba4").innerHTML = hogehoge);
 }
