@@ -23,3 +23,10 @@ header nav a {
 .space-button-a p {
   display: inline-block;
 }
+
+a {
+  text-decoration: none;
+}
+p a {
+  color: black;
+}
