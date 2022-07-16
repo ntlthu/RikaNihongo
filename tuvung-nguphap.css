@@ -2,11 +2,7 @@
 .FAQs__QA {
   display: flex;
   justify-content: space-evenly;
-}
-@media screen and (max-widh: 576px) {
-  .FAQs__QA {
-    flex-wrap: wrap;
-  }
+  flex-wrap: wrap;
 }
 .faq-page {
   margin-right: 5px;
