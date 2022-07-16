@@ -1,9 +1,9 @@
 /* FAQs */
-.FAQs__QA {
+/* .FAQs__QA {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-}
+} */
 .faq-page {
   margin-right: 5px;
 }
@@ -45,6 +45,8 @@
   margin: 0 0 15px 0;
   border-radius: 6px;
   background: #fff;
+  max-width: 420px;
+  display: inline-block;
 }
 .FAQs__QA ul li a {
   text-decoration: none;
