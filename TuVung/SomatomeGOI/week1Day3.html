@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Somatome N2 Goi</title>
+    <title>第１週- ３日目：友人を招きました</title>
     <!-- Font Icons -->
     <link
       rel="stylesheet"
@@ -18,7 +18,7 @@
       crossorigin="anonymous"
     />
     <!-- MAIN CSS -->
-    <link rel="stylesheet" href="/TuVung/Tuvung.css" />
+    <link rel="stylesheet" href="../Tuvung.css" />
   </head>
   <body>
     <header class="container pt-3 pb-3">
@@ -60,6 +60,40 @@
             </li>
           </ul>
         </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            data-bs-toggle="dropdown"
+            href="#"
+            role="button"
+            aria-expanded="false"
+            >ベトナムについて</a
+          >
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="/DulichVietNam/VNtabemono.html"
+                >ベトナム料理</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                href="/DulichVietNam/BetonamuOmiyage.html"
+                >ベトナムお土産</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="/DulichVietNam/Kaimono.html"
+                >ベトナム買い物</a
+              >
+            </li>
+            <li>
+              <a class="dropdown-item" href="/DulichVietNam/Tuvung.html"
+                >Từ Vựng</a
+              >
+            </li>
+          </ul>
+        </li>
       </ul>
     </header>
     <!-- blog breadcrumbs -->
@@ -67,24 +101,38 @@
       <div class="container page-wrapper">
         <a href="/index.html">Home</a> »
         <span class="breadcrumb_last" aria-current="page">Từ Vựng</span> »
-        <span class="breadcrumb_last" aria-current="page">N2-Somatome</span>
+        <a
+          href="/TuVung/SomatomeGOI/SomatomeN2Goi.html"
+          class="breadcrumb_last"
+          aria-current="page"
+          >N2-Somatome</a
+        >
+        »
+        <span class="breadcrumb_last" aria-current="page"
+          >第１週- ３日目：友人を招きました</span
+        >
       </div>
     </nav>
-    <section class="container mt-2 somatomen2goi-content">
-      <div>
-        <a href="/TuVung/SomatomeGOI/week1Day3.html"
-          >第１週- ３日目：友人を招きました</a
-        >
-      </div>
-      <div>
-        <a href="/TuVung/SomatomeGOI/week8Day1.html"
-          >第8週- １日目： 組み合わせ言葉　①</a
-        >
-      </div>
-      <div>
-        <a href="/TuVung/SomatomeGOI/week8Day3.html"
-          >第8週- ３日目： よく使われる表現　①</a
-        >
+    <!-- Content -->
+    <section class="container mt-2">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <p>A: Hoan nghênh bác đến chơi. Mời bác vào</p>
+            <p>B: Xin làm phiền (sử dụng khi bước vào nhà)</p>
+          </div>
+          <div class="flip-card-back">
+            <p>
+              A: よくいらっしゃいました。<br />
+              どうぞおあがりください。<br />
+              B: おじゃまします。
+            </p>
+            <p>
+              A: Welcome! Please come in. <br />
+              B: Thank you!
+            </p>
+          </div>
+        </div>
       </div>
     </section>
     <!-- JQUERY -->
@@ -99,5 +147,22 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <!-- TOOLTIPS BS -->
+    <script>
+      const tooltipTriggerList = document.querySelectorAll(
+        '[data-bs-toggle="tooltip"]'
+      );
+      const tooltipList = [...tooltipTriggerList].map(
+        (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+      );
+    </script>
+
+    <script>
+      $(".control-audio").click(function () {
+        let src = $(this).attr("src");
+        const audio = new Audio(src);
+        audio.play();
+      });
+    </script>
   </body>
 </html>
