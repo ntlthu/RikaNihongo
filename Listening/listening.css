@@ -16,6 +16,7 @@ body {
 a,
 a:hover {
   text-decoration: none;
+  color: black;
 }
 
 :root {
@@ -59,7 +60,7 @@ nav#breadcrumbs a:hover {
 
 @media screen and (max-width: 992px) {
   .breadcrumbs {
-    margin-top: 70px;
+    margin-top: 30px;
   }
 }
 
