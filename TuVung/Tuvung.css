@@ -17,6 +17,10 @@ a,
 a:hover {
   text-decoration: none;
 }
+p a {
+  color: black;
+  font-weight: 500;
+}
 
 :root {
   --pink: #dc4f72;
@@ -73,7 +77,7 @@ nav#breadcrumbs a:hover {
 }
 
 .FAQs__QA h2 {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 25px;
   font-weight: 400;
   display: block;
