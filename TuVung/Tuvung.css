@@ -227,3 +227,7 @@ nav#breadcrumbs a:hover {
   transform: rotateY(180deg);
   padding-top: 5px;
 }
+
+.faq-page p ruby rt i {
+  font-size: 13px;
+}
