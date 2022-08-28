@@ -231,3 +231,15 @@ nav#breadcrumbs a:hover {
 .faq-page p ruby rt i {
   font-size: 13px;
 }
+ruby rt i {
+  font-size: 13px;
+}
+.parentContent a {
+  font-size: 17px;
+  font-weight: bold;
+  color: #2c3038;
+}
+
+.childContent {
+  padding-left: 30px;
+}
