@@ -260,3 +260,15 @@ nav#breadcrumbs a:hover {
 .fa-play {
   color: #dc4f72;
 }
+
+.parentContent {
+  font-size: 17px;
+  font-weight: bold;
+  color: #2c3038;
+  background-color: rgb(154, 253, 220);
+  display: inline-block;
+}
+
+.childContent {
+  padding-left: 30px;
+}
