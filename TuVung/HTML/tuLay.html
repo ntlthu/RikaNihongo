@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Từ vựng tổng hợp</title>
+    <title>Từ Láy</title>
 
     <link
       rel="stylesheet"
@@ -27,10 +27,7 @@
         <li class="nav-item dropdown">
           <a
             class="nav-link active"
-            data-bs-toggle="dropdown"
             href="/TuVung/Tuvungtonghop/tuvungtonghop.html"
-            role="button"
-            aria-expanded="false"
             >Từ vựng</a
           >
         </li>
@@ -142,25 +139,60 @@
     <nav id="breadcrumbs" class="breadcrumbs">
       <div class="container page-wrapper">
         <a href="/index.html">Home</a> »
-        <a href="#" class="breadcrumb_last" aria-current="page"
+        <a
+          href="/TuVung/Tuvungtonghop/tuvungtonghop.html"
+          class="breadcrumb_last"
+          aria-current="page"
           >Từ vựng tổng hợp</a
         >
+        »
+        <a href="#" class="breadcrumb_last" aria-current="page">Động từ ghép</a>
       </div>
     </nav>
-
     <!-- Content -->
-    <ul class="container mt-2">
-      <li>
-        <a href="/TuVung/HTML/tuLay.html">Từ Láy</a>
+    <ul class="mt-2">
+      <li class="parentContent">
+        <ruby>
+          <a
+            href="#たまたま"
+            data-bs-toggle="tooltip"
+            title="偶々 「NGẪU」"
+            id="たまたま"
+            >たまたま
+          </a>
+          <rt>
+            <i
+              class="fa fa-volume-up control-audio"
+              src="http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kana=%E3%81%9F%E3%81%BE%E3%81%9F%E3%81%BE&kanji=%E5%81%B6%E3%80%85"
+            ></i>
+          </rt> </ruby
+        >: Tình cờ, ngẫu nhiên / (Hiếm; đôi khi; cũng có lúc)
       </li>
-      <li>
-        <a href="/TuVung/HTML/dongTuGhep.html">Từ ghép</a>
-      </li>
-      <li><a href="/TuVung/SomatomeGOI/SomatomeN2Goi.html">N2-Somatome</a></li>
-      <li><a href="/TuVung/LIOSgoi/liosKotoba.html">LIOS-Từ Vựng</a></li>
-      <li>
-        <a href="/TuVung/Kaiwa/mauCauGiaoTiep.html">Các mẫu câu giao tiếp</a>
-      </li>
+      <div class="childContent">
+        <p>
+          そんなに
+          <ruby>
+            <a
+              href="#罪悪感"
+              data-bs-toggle="tooltip"
+              title="ざいあくかん「TỘI ÁC CẢM」:❶ Cảm giác tội lỗi/ ❷ cảm giác có lỗi (nhẹ hơn nét nghĩa 1 một chút)"
+              id="罪悪感"
+              >罪悪感
+            </a>
+            <rt>
+              <i
+                class="fa fa-volume-up control-audio"
+                src="http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kana=%E3%81%96%E3%81%84%E3%81%82%E3%81%8F%E3%81%8B%E3%82%93&kanji=%E7%BD%AA%E6%82%AA%E6%84%9F"
+              ></i>
+            </rt>
+          </ruby>
+          を感じる必要はないですよ～たまたまですよ、たまたま！
+        </p>
+        <p>
+          こっちのエラーは、たまたま、って事ですね。: Cái lỗi này là tình cờ
+          nhỉ.
+        </p>
+      </div>
     </ul>
     <!-- BS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -178,9 +210,9 @@
     </script>
     <!-- Popovers -->
     <!-- <script>
-         const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
-         const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
-     </script> -->
+          const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+          const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+      </script> -->
     <script>
       $(".control-audio").click(function () {
         let src = $(this).attr("src");
