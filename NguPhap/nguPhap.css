@@ -260,6 +260,11 @@ nav#breadcrumbs a:hover {
 ruby rt i {
   font-size: 13px;
 }
+.parentContent {
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 15px;
+}
 .parentContent a {
   font-size: 17px;
   font-weight: bold;
@@ -267,5 +272,10 @@ ruby rt i {
 }
 
 .childContent {
-  padding-left: 30px;
+  padding-left: 35px;
+}
+
+.additional {
+  background-color: rgb(154, 253, 220);
+  display: inline-block;
 }
