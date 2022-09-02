@@ -275,3 +275,6 @@ nav#breadcrumbs a:hover {
   background-color: rgb(154, 253, 220);
   display: inline-block;
 }
+ruby rt {
+  font-size: 11px;
+}
