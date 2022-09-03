@@ -266,6 +266,9 @@ nav#breadcrumbs a:hover {
   font-weight: bold;
   color: #2c3038;
 }
+.parentContent a {
+  color: black;
+}
 
 .childContent {
   padding-left: 30px;
